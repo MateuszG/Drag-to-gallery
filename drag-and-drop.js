@@ -1,4 +1,4 @@
-var dropBox = document.getElementById('dropBox');
+var dropBox = document.getElementById('dropbox');
 var allowed = ["jpeg", "png"];
 var thumbSize = 150;
 
