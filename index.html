@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pure JS Drag and Drop Example</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="dropBox">
+      <span id="dropplace">Drop file here...</span>
+    </div>
+    <hr/>
+
+    <label>Or select them...</label>
+    <input type="file" id="input" multiple onchange="processImage(this.files)">
+    <hr/>
+
+    <script type="text/javascript" src="drag-and-drop.js"></script>
+  </body>
+</html>
